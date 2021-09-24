@@ -35,6 +35,8 @@ class Note extends FlxSprite
 	public static var BLUE_NOTE:Int = 1;
 	public static var RED_NOTE:Int = 3;
 	public var noteType:String = 'normal';
+	
+	public var dType:Int = 0;
 
 	public var rating:String = "shit";
 
@@ -60,6 +62,13 @@ class Note extends FlxSprite
 		this.noteData = noteData;
 
 		var daStage:String = PlayState.curStage;
+		
+		if (dType == 0) noteType = 'mong';
+		else if (dType == 2)
+				{
+					if (daNote.noteData <= 3) noteType = 'mong';
+					// if (daNote.noteData == 4) noteType = '???';
+				}
 
 		switch (PlayState.SONG.noteStyle)
 		{
