@@ -248,6 +248,102 @@ class Character extends FlxSprite
 				addOffset("singDownHOLD", -10, -20);
 
 				playAnim('idle');
+			case 'duo-eevee':
+				tex = Paths.getSparrowAtlas('characters/cloud');
+				frames = tex;
+				animation.addByPrefix('idle', 'idle', 24, false);
+				animation.addByPrefix('singUP', 'up', 24, false);
+				animation.addByPrefix('singRIGHT', 'right', 24, false);
+				animation.addByPrefix('singDOWN', 'down', 24, false);
+				animation.addByPrefix('singLEFT', 'left', 24, false);
+
+				addOffset('idle');
+				addOffset("singUP", 80, 30);
+				addOffset("singRIGHT", -50, -10);
+				addOffset("singLEFT", 121, 0);
+				addOffset("singDOWN", -10, -20);
+
+				playAnim('idle');
+			case 'cloud':
+				tex = Paths.getSparrowAtlas('characters/cloud');
+				frames = tex;
+				animation.addByPrefix('idle', 'idle', 24, false);
+				animation.addByPrefix('singUP', 'up', 24, false);
+				animation.addByPrefix('singRIGHT', 'right', 24, false);
+				animation.addByPrefix('singDOWN', 'down', 24, false);
+				animation.addByPrefix('singLEFT', 'left', 24, false);
+
+				addOffset('idle');
+				addOffset("singUP", 80, 30);
+				addOffset("singRIGHT", -50, -10);
+				addOffset("singLEFT", 121, 0);
+				addOffset("singDOWN", -10, -20);
+
+				playAnim('idle');
+			case 'duo-right':
+				tex = Paths.getSparrowAtlas('characters/eevee');
+				frames = tex;
+				animation.addByPrefix('idle', 'idle', 24, false);
+				animation.addByPrefix('singUP', 'up', 24, false);
+				animation.addByPrefix('singRIGHT', 'right', 24, false);
+				animation.addByPrefix('singDOWN', 'down', 24, false);
+				animation.addByPrefix('singLEFT', 'left', 24, false);
+
+				addOffset('idle');
+				addOffset("singUP", 80, 30);
+				addOffset("singRIGHT", -50, -10);
+				addOffset("singLEFT", 121, 0);
+				addOffset("singDOWN", -10, -20);
+
+				playAnim('idle');
+			case 'eevee':
+				tex = Paths.getSparrowAtlas('characters/eevee');
+				frames = tex;
+				animation.addByPrefix('idle', 'idle', 24, false);
+				animation.addByPrefix('singUP', 'up', 24, false);
+				animation.addByPrefix('singRIGHT', 'right', 24, false);
+				animation.addByPrefix('singDOWN', 'down', 24, false);
+				animation.addByPrefix('singLEFT', 'left', 24, false);
+
+				addOffset('idle');
+				addOffset("singUP", 80, 30);
+				addOffset("singRIGHT", -50, -10);
+				addOffset("singLEFT", 121, 0);
+				addOffset("singDOWN", -10, -20);
+
+				playAnim('idle');
+			case 'shade':
+				tex = Paths.getSparrowAtlas('characters/shade');
+				frames = tex;
+				animation.addByPrefix('idle', 'idle', 24, false);
+				animation.addByPrefix('singUP', 'up', 24, false);
+				animation.addByPrefix('singRIGHT', 'right', 24, false);
+				animation.addByPrefix('singDOWN', 'down', 24, false);
+				animation.addByPrefix('singLEFT', 'left', 24, false);
+
+				addOffset('idle');
+				addOffset("singUP", 80, 30);
+				addOffset("singRIGHT", -50, -10);
+				addOffset("singLEFT", 121, 0);
+				addOffset("singDOWN", -10, -20);
+
+				playAnim('idle');
+			case 'noctapolar':
+				tex = Paths.getSparrowAtlas('characters/noctapolar');
+				frames = tex;
+				animation.addByPrefix('idle', 'idle', 24, false);
+				animation.addByPrefix('singUP', 'up', 24, false);
+				animation.addByPrefix('singRIGHT', 'right', 24, false);
+				animation.addByPrefix('singDOWN', 'down', 24, false);
+				animation.addByPrefix('singLEFT', 'left', 24, false);
+
+				addOffset('idle');
+				addOffset("singUP", 80, 30);
+				addOffset("singRIGHT", -50, -10);
+				addOffset("singLEFT", 121, 0);
+				addOffset("singDOWN", -10, -20);
+
+				playAnim('idle');
 			case 'wires':
 				tex = Paths.getSparrowAtlas('sus/eletrical/purple_wires_task');
 				frames = tex;
