@@ -249,7 +249,7 @@ class Character extends FlxSprite
 
 				playAnim('idle');
 			case 'duo-eevee':
-				tex = Paths.getSparrowAtlas('characters/cloud');
+				tex = Paths.getSparrowAtlas('characters/Cloud');
 				frames = tex;
 				animation.addByPrefix('idle', 'idle', 24, false);
 				animation.addByPrefix('singUP', 'up', 24, false);
@@ -265,7 +265,7 @@ class Character extends FlxSprite
 
 				playAnim('idle');
 			case 'cloud':
-				tex = Paths.getSparrowAtlas('characters/cloud');
+				tex = Paths.getSparrowAtlas('characters/Cloud');
 				frames = tex;
 				animation.addByPrefix('idle', 'idle', 24, false);
 				animation.addByPrefix('singUP', 'up', 24, false);
@@ -281,52 +281,49 @@ class Character extends FlxSprite
 
 				playAnim('idle');
 			case 'duo-right':
-				tex = Paths.getSparrowAtlas('characters/eevee');
+				tex = Paths.getSparrowAtlas('characters/Eevee');
 				frames = tex;
-				animation.addByPrefix('idle', 'idle', 24, false);
-				animation.addByPrefix('singUP', 'up', 24, false);
-				animation.addByPrefix('singRIGHT', 'right', 24, false);
-				animation.addByPrefix('singDOWN', 'down', 24, false);
-				animation.addByPrefix('singLEFT', 'left', 24, false);
+				animation.addByPrefix('idle', 'Eevee idle', 24, false);
+				animation.addByPrefix('singUP', 'Eevee singUP', 24, false);
+				animation.addByPrefix('singDOWN', 'Eevee singDOWN', 24, false);
+				animation.addByPrefix('singLEFT', 'Eevee singLEFT', 24, false);
+				animation.addByPrefix('singRIGHT', 'Eevee singRIGHT', 24, false);
 
 				addOffset('idle');
-				addOffset("singUP", 80, 30);
-				addOffset("singRIGHT", -50, -10);
-				addOffset("singLEFT", 121, 0);
-				addOffset("singDOWN", -10, -20);
-
+				addOffset("singUP");
+				addOffset("singRIGHT");
+				addOffset("singLEFT");
+				addOffset("singDOWN");
 				playAnim('idle');
 			case 'eevee':
-				tex = Paths.getSparrowAtlas('characters/eevee');
+				tex = Paths.getSparrowAtlas('characters/Eevee');
 				frames = tex;
-				animation.addByPrefix('idle', 'idle', 24, false);
-				animation.addByPrefix('singUP', 'up', 24, false);
-				animation.addByPrefix('singRIGHT', 'right', 24, false);
-				animation.addByPrefix('singDOWN', 'down', 24, false);
-				animation.addByPrefix('singLEFT', 'left', 24, false);
+				animation.addByPrefix('idle', 'Eevee idle', 24, false);
+				animation.addByPrefix('singUP', 'Eevee singUP', 24, false);
+				animation.addByPrefix('singDOWN', 'Eevee singDOWN', 24, false);
+				animation.addByPrefix('singLEFT', 'Eevee singLEFT', 24, false);
+				animation.addByPrefix('singRIGHT', 'Eevee singRIGHT', 24, false);
 
 				addOffset('idle');
-				addOffset("singUP", 80, 30);
-				addOffset("singRIGHT", -50, -10);
-				addOffset("singLEFT", 121, 0);
-				addOffset("singDOWN", -10, -20);
-
+				addOffset("singUP");
+				addOffset("singRIGHT");
+				addOffset("singLEFT");
+				addOffset("singDOWN");
 				playAnim('idle');
 			case 'shade':
-				tex = Paths.getSparrowAtlas('characters/shade');
+				tex = Paths.getSparrowAtlas('characters/Shade');
 				frames = tex;
-				animation.addByPrefix('idle', 'idle', 24, false);
-				animation.addByPrefix('singUP', 'up', 24, false);
-				animation.addByPrefix('singRIGHT', 'right', 24, false);
-				animation.addByPrefix('singDOWN', 'down', 24, false);
-				animation.addByPrefix('singLEFT', 'left', 24, false);
+				animation.addByPrefix('idle', 'Shade idle', 24, false);
+				animation.addByPrefix('singUP', 'Shade singUP', 24, false);
+				animation.addByPrefix('singDOWN', 'Shade singDOWN', 24, false);
+				animation.addByPrefix('singLEFT', 'Shade singLEFT', 24, false);
+				animation.addByPrefix('singRIGHT', 'Shade singRIGHT', 24, false);
 
 				addOffset('idle');
-				addOffset("singUP", 80, 30);
-				addOffset("singRIGHT", -50, -10);
-				addOffset("singLEFT", 121, 0);
-				addOffset("singDOWN", -10, -20);
-
+				addOffset("singUP");
+				addOffset("singRIGHT");
+				addOffset("singLEFT");
+				addOffset("singDOWN");
 				playAnim('idle');
 			case 'noctapolar':
 				tex = Paths.getSparrowAtlas('characters/noctapolar');
