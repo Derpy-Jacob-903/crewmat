@@ -1699,24 +1699,55 @@ class PlayState extends MusicBeatState
 						case 0:
 							babyArrow.x += Note.swagWidth * 0;
 							babyArrow.animation.addByPrefix('static', 'arrowLEFT');
+							if (Note.noteType == 'mong')
+							{
+							babyArrow.animation.addByPrefix('pressed', 'yel press', 24, false);
+							babyArrow.animation.addByPrefix('confirm', 'yel confirm', 24, false);
+							}
+							else
+							{
 							babyArrow.animation.addByPrefix('pressed', 'left press', 24, false);
-							babyArrow.animation.addByPrefix('confirm', 'left confirm', 24, false);
+							babyArrow.animation.addByPrefix('confirm', 'left confirm', 24, false);	
+							}
 						case 1:
 							babyArrow.x += Note.swagWidth * 1;
 							babyArrow.animation.addByPrefix('static', 'arrowDOWN');
+							if (Note.noteType == 'mong')
+							{
+							babyArrow.animation.addByPrefix('pressed', 'black press', 24, false);
+							babyArrow.animation.addByPrefix('confirm', 'black confirm', 24, false);
+							}
+							else
+							{
 							babyArrow.animation.addByPrefix('pressed', 'down press', 24, false);
-							babyArrow.animation.addByPrefix('confirm', 'down confirm', 24, false);
+							babyArrow.animation.addByPrefix('confirm', 'down confirm', 24, false);	
+							}
 						case 2:
 							babyArrow.x += Note.swagWidth * 2;
 							babyArrow.animation.addByPrefix('static', 'arrowUP');
+							if (Note.noteType == 'mong')
+							{
+							babyArrow.animation.addByPrefix('pressed', 'violet press', 24, false);
+							babyArrow.animation.addByPrefix('confirm', 'violet confirm', 24, false);
+							}
+							else
+							{
 							babyArrow.animation.addByPrefix('pressed', 'up press', 24, false);
-							babyArrow.animation.addByPrefix('confirm', 'up confirm', 24, false);
+							babyArrow.animation.addByPrefix('confirm', 'up confirm', 24, false);	
+							}
 						case 3:
 							babyArrow.x += Note.swagWidth * 3;
 							babyArrow.animation.addByPrefix('static', 'arrowRIGHT');
+							if (Note.noteType == 'mong')
+							{
+							babyArrow.animation.addByPrefix('pressed', 'dark press', 24, false);
+							babyArrow.animation.addByPrefix('confirm', 'dark confirm', 24, false);
+							}
+							else
+							{
 							babyArrow.animation.addByPrefix('pressed', 'right press', 24, false);
-							babyArrow.animation.addByPrefix('confirm', 'right confirm', 24, false);
-					}
+							babyArrow.animation.addByPrefix('confirm', 'right confirm', 24, false);	
+							}
 			}
 
 			babyArrow.updateHitbox();
