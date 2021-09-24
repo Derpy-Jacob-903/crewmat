@@ -66,7 +66,7 @@ class Note extends FlxSprite
 		if (dType == 0) noteType = 'mong';
 		else if (dType == 2)
 				{
-					if (daNote.noteData <= 3) noteType = 'mong';
+					if (noteData <= 3) noteType = 'mong';
 					// if (daNote.noteData == 4) noteType = '???';
 				}
 
