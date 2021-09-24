@@ -3121,8 +3121,8 @@ class PlayState extends MusicBeatState
 					!FlxG.save.data.downscroll && daNote.y < strumLine.y)
 					{
 						// Force good note hit regardless if it's too late to hit it or not as a fail safe
-						if(FlxG.save.data.botplay && daNote.canBeHit && daNote.mustPress ||
-						FlxG.save.data.botplay && daNote.tooLate && daNote.mustPress)
+						if(FlxG.save.data.botplay && daNote.canBeHit && daNote.mustPress && daNote.isSus != true ||
+						FlxG.save.data.botplay && daNote.tooLate && daNote.mustPress && daNote.isSus != true)
 						{
 							if(loadRep)
 							{
@@ -3140,7 +3140,7 @@ class PlayState extends MusicBeatState
 					}
 				});
 				
-				if (boyfriend.holdTimer > Conductor.stepCrochet * 4 * 0.001 && (!holdArray.contains(true) || FlxG.save.data.botplay))
+				if (boyfriend.holdTimer > Conductor.stepCrochet * 4 * 0.001 && (!holdArray.contains(true) || FlxG.save.data.botplay ))
 				{
 					if (boyfriend.animation.curAnim.name.startsWith('sing') && !boyfriend.animation.curAnim.name.endsWith('miss'))
 						boyfriend.playAnim('idle');
@@ -3332,8 +3332,12 @@ class PlayState extends MusicBeatState
 				{
 					switch (note.noteType){
 						case 'sus':
+							if (!FlxG.save.data.botplay)
+							{
 							susmont += 1;
 							drainmultipl += 0.0005;
+							note.isSus = true;
+							}
 						default:
 							if (!note.isSustainNote)
 								{
@@ -3342,6 +3346,7 @@ class PlayState extends MusicBeatState
 								}
 								else
 									totalNotesHit += 1;
+							note.isSus = false;
 						}
 	
 
