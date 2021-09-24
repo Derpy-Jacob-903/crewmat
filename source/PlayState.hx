@@ -1720,7 +1720,7 @@ class PlayState extends MusicBeatState
 						case 0:
 							babyArrow.x += Note.swagWidth * 0;
 							babyArrow.animation.addByPrefix('static', 'arrowLEFT');
-							if (Note.noteType == 'mong')
+							if (daNote.noteType == 'mong')
 							{
 							babyArrow.animation.addByPrefix('pressed', 'yel press', 24, false);
 							babyArrow.animation.addByPrefix('confirm', 'yel confirm', 24, false);
@@ -1733,7 +1733,7 @@ class PlayState extends MusicBeatState
 						case 1:
 							babyArrow.x += Note.swagWidth * 1;
 							babyArrow.animation.addByPrefix('static', 'arrowDOWN');
-							if (Note.noteType == 'mong')
+							if (daNote.noteType == 'mong')
 							{
 							babyArrow.animation.addByPrefix('pressed', 'black press', 24, false);
 							babyArrow.animation.addByPrefix('confirm', 'black confirm', 24, false);
@@ -1746,7 +1746,7 @@ class PlayState extends MusicBeatState
 						case 2:
 							babyArrow.x += Note.swagWidth * 2;
 							babyArrow.animation.addByPrefix('static', 'arrowUP');
-							if (Note.noteType == 'mong')
+							if (daNote.noteType == 'mong')
 							{
 							babyArrow.animation.addByPrefix('pressed', 'violet press', 24, false);
 							babyArrow.animation.addByPrefix('confirm', 'violet confirm', 24, false);
@@ -1759,7 +1759,7 @@ class PlayState extends MusicBeatState
 						case 3:
 							babyArrow.x += Note.swagWidth * 3;
 							babyArrow.animation.addByPrefix('static', 'arrowRIGHT');
-							if (Note.noteType == 'mong')
+							if (daNote.noteType == 'mong')
 							{
 							babyArrow.animation.addByPrefix('pressed', 'dark press', 24, false);
 							babyArrow.animation.addByPrefix('confirm', 'dark confirm', 24, false);
