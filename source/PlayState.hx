@@ -857,11 +857,11 @@ class PlayState extends MusicBeatState
 			case 'gf':
 				dad.setPosition(gf.x, gf.y);
 				gf.visible = false;
-				if (isStoryMode)
-				{
-					camPos.x += 600;
-					tweenCamIn();
-				}
+				//if (isStoryMode)
+				//{
+				//	camPos.x += 600;
+				//	tweenCamIn();
+				//}
 
 			case "spooky":
 				dad.y += 200;
@@ -3398,7 +3398,7 @@ class PlayState extends MusicBeatState
 						}
 	
 
-					switch(Note.noteType)
+					switch(note.noteType)
 						{
 							case 'mong':
 								switch (note.noteData)
@@ -3702,7 +3702,7 @@ class PlayState extends MusicBeatState
 				if (dad.curCharacter == 'duo-eevee'){
 					dad2.dance();
 				}
-				if (bf.curCharacter == 'duo-right'){
+				if (boyfriend.curCharacter == 'duo-right'){
 					bf2.dance();
 				}
 			
