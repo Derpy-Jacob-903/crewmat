@@ -105,6 +105,7 @@ class PlayState extends MusicBeatState
 
 	public static var dad:Character;
 	var dad2:Character;
+	var bf2:Character;
 	public static var gf:Character;
 	public static var boyfriend:Boyfriend;
 
@@ -960,6 +961,20 @@ class PlayState extends MusicBeatState
 				dad2.x -= 300;
 				dad2.y -= 135;
 			}
+		if (dad.curCharacter == 'duo-eevee')
+			{
+				dad2 = new Character(dad.x, dad.y, 'noctapolar'); // adds player 2
+				add(dad2);
+				dad2.x -= 300;
+				dad2.y -= 135;
+			}
+		if (boyfriend.curCharacter == 'duo-right')
+			{
+				bf2 = new Character(boyfriend.x, boyfriend.y, 'shade'); // adds player 2
+				add(bf2);
+				bf2.x += 300;
+				bf2.y -= 135;
+			}
 			add(dad);
 
 			add(boyfriend);
@@ -1315,6 +1330,12 @@ class PlayState extends MusicBeatState
 			dad.dance();
 		if (dad.curCharacter == 'duo'){
 			dad2.dance();
+		}
+		if (dad.curCharacter == 'duo-eevee'){
+			bf2.dance();
+		}
+		if (boyfriend.curCharacter == 'duo-right'){
+			bf2.dance();
 		}
 			gf.dance();
 			boyfriend.playAnim('idle');
@@ -3377,8 +3398,25 @@ class PlayState extends MusicBeatState
 						}
 	
 
-					switch (note.noteData)
+					switch(Note.noteType)
+						{
+							case 'mong':
+								switch (note.noteData)
 					{
+							
+						case 2:
+							bf2.playAnim('singUP', true);
+						case 3:
+							bf2.playAnim('singRIGHT', true);
+						case 1:
+							bf2.playAnim('singDOWN', true);
+						case 0:
+							bf2.playAnim('singLEFT', true);
+					}	
+							default:
+								switch (note.noteData)
+					{
+							
 						case 2:
 							boyfriend.playAnim('singUP', true);
 						case 3:
@@ -3388,6 +3426,9 @@ class PlayState extends MusicBeatState
 						case 0:
 							boyfriend.playAnim('singLEFT', true);
 					}
+									
+						}
+					
 		
 					#if windows
 					if (luaModchart != null)
@@ -3658,6 +3699,13 @@ class PlayState extends MusicBeatState
 				if (dad.curCharacter == 'duo'){
 					dad2.dance();
 				}
+				if (dad.curCharacter == 'duo-eevee'){
+					dad2.dance();
+				}
+				if (bf.curCharacter == 'duo-right'){
+					bf2.dance();
+				}
+			
 		}
 		// FlxG.log.add('change bpm' + SONG.notes[Std.int(curStep / 16)].changeBPM);
 		wiggleShit.update(Conductor.crochet);
