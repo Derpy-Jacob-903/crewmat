@@ -94,25 +94,76 @@ class Note extends FlxSprite
 						frames = Paths.getSparrowAtlas('NOTE_assets');
 					case 'sus':
 						frames = Paths.getSparrowAtlas('goldnotes');
-					case 'mong':
-						frames = Paths.getSparrowAtlas('silvernotes');
 				}
 				
+				switch (noteType) {
+					default:
+						animation.addByPrefix('greenScroll', 'green0');
+						animation.addByPrefix('redScroll', 'red0');
+						animation.addByPrefix('blueScroll', 'blue0');
+						animation.addByPrefix('purpleScroll', 'purple0');
+						animation.addByPrefix('whiteScroll', 'white0');
+						animation.addByPrefix('yellowScroll', 'purple0');
+						animation.addByPrefix('violetScroll', 'blue0');
+						animation.addByPrefix('blackScroll', 'green0');
+						animation.addByPrefix('darkScroll', 'red0');
 
-				animation.addByPrefix('greenScroll', 'green0');
-				animation.addByPrefix('redScroll', 'red0');
-				animation.addByPrefix('blueScroll', 'blue0');
-				animation.addByPrefix('purpleScroll', 'purple0');
+						animation.addByPrefix('purpleholdend', 'pruple end hold');
+						animation.addByPrefix('greenholdend', 'green hold end');
+						animation.addByPrefix('redholdend', 'red hold end');
+						animation.addByPrefix('blueholdend', 'blue hold end');
+						animation.addByPrefix('whiteholdend', 'white hold end');
+						animation.addByPrefix('yellowholdend', 'pruple hold end');
+						animation.addByPrefix('violetholdend', 'blue hold end');
+						animation.addByPrefix('blackholdend', 'green hold end');
+						animation.addByPrefix('darkholdend', 'red hold end');
 
-				animation.addByPrefix('purpleholdend', 'pruple end hold');
-				animation.addByPrefix('greenholdend', 'green hold end');
-				animation.addByPrefix('redholdend', 'red hold end');
-				animation.addByPrefix('blueholdend', 'blue hold end');
+						animation.addByPrefix('purplehold', 'purple hold piece');
+						animation.addByPrefix('greenhold', 'green hold piece');
+						animation.addByPrefix('redhold', 'red hold piece');
+						animation.addByPrefix('bluehold', 'blue hold piece');
+						animation.addByPrefix('whitehold', 'white hold piece');
+						animation.addByPrefix('yellowhold', 'purple hold piece');
+						animation.addByPrefix('violethold', 'blue hold piece');
+						animation.addByPrefix('blackhold', 'green hold piece');
+						animation.addByPrefix('darkhold', 'red hold piece');
+						
+						animation.addByPrefix('kill', 'kill');
+						animation.addByPrefix('live', 'live');
+					case 'mong':
+						animation.addByPrefix('greenScroll', 'black0');
+						animation.addByPrefix('redScroll', 'dark0');
+						animation.addByPrefix('blueScroll', 'violet0');
+						animation.addByPrefix('purpleScroll', 'yellow0');
+						animation.addByPrefix('whiteScroll', 'white0');
+						animation.addByPrefix('yellowScroll', 'yellow0');
+						animation.addByPrefix('violetScroll', 'violet0');
+						animation.addByPrefix('blackScroll', 'black0');
+						animation.addByPrefix('darkScroll', 'dark0');
 
-				animation.addByPrefix('purplehold', 'purple hold piece');
-				animation.addByPrefix('greenhold', 'green hold piece');
-				animation.addByPrefix('redhold', 'red hold piece');
-				animation.addByPrefix('bluehold', 'blue hold piece');
+						animation.addByPrefix('purpleholdend', 'yellow end hold');
+						animation.addByPrefix('greenholdend', 'black hold end');
+						animation.addByPrefix('redholdend', 'dark hold end');
+						animation.addByPrefix('blueholdend', 'violet hold end');
+						animation.addByPrefix('whiteholdend', 'white hold end');
+						animation.addByPrefix('yellowholdend', 'yellow hold end');
+						animation.addByPrefix('violetholdend', 'violet hold end');
+						animation.addByPrefix('blackholdend', 'black hold end');
+						animation.addByPrefix('darkholdend', 'dark hold end');
+
+						animation.addByPrefix('purplehold', 'yellow hold piece');
+						animation.addByPrefix('greenhold', 'black hold piece');
+						animation.addByPrefix('redhold', 'dark hold piece');
+						animation.addByPrefix('bluehold', 'violet hold piece');
+						animation.addByPrefix('whitehold', 'white hold piece');
+						animation.addByPrefix('yellowhold', 'yellow hold piece');
+						animation.addByPrefix('violethold', 'violet hold piece');
+						animation.addByPrefix('blackhold', 'black hold piece');
+						animation.addByPrefix('darkhold', 'dark hold piece');
+						
+						animation.addByPrefix('kill', 'kill');
+						animation.addByPrefix('live', 'live');
+
 
 				setGraphicSize(Std.int(width * 0.7));
 				updateHitbox();
