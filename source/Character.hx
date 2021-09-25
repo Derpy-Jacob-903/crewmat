@@ -269,11 +269,11 @@ class Character extends FlxSprite
 			case 'duo-eevee':
 				tex = Paths.getSparrowAtlas('characters/Cloud sprites');
 				frames = tex;
-				animation.addByPrefix('idle', 'idle', 24, false);
+				animation.addByPrefix('idle', 'Idle cloud', 24, false);
 				animation.addByPrefix('singUP', 'up', 24, false);
 				animation.addByPrefix('singRIGHT', 'right', 24, false);
-				animation.addByPrefix('singDOWN', 'down', 24, false);
-				animation.addByPrefix('singLEFT', 'left', 24, false);
+				animation.addByPrefix('singDOWN', 'down cloud', 24, false);
+				animation.addByPrefix('singLEFT', 'left cloud', 24, false);
 
 				addOffset('idle');
 				addOffset("singUP", 80, 30);

@@ -970,7 +970,7 @@ class PlayState extends MusicBeatState
 			}
 		if (boyfriend.curCharacter == 'duo-right')
 			{
-				bf2 = new Character(boyfriend.x, boyfriend.y, 'shade'); // adds player 2
+				bf2 = new Boyfriend(boyfriend.x, boyfriend.y, 'shade'); // adds player 2
 				add(bf2);
 				bf2.x += 300;
 				bf2.y -= 135;
@@ -1332,7 +1332,7 @@ class PlayState extends MusicBeatState
 			dad2.dance();
 		}
 		if (dad.curCharacter == 'duo-eevee'){
-			bf2.dance();
+			dad2.dance();
 		}
 		if (boyfriend.curCharacter == 'duo-right'){
 			bf2.dance();
@@ -1686,55 +1686,24 @@ class PlayState extends MusicBeatState
 						case 0:
 							babyArrow.x += Note.swagWidth * 0;
 							babyArrow.animation.addByPrefix('static', 'arrowLEFT');
-							//if (swagNote.noteType == 'mong')
-							//{
-							//babyArrow.animation.addByPrefix('pressed', 'yel press', 24, false);
-							//babyArrow.animation.addByPrefix('confirm', 'yel confirm', 24, false);
-							//}
-							//else
-							//{
 							babyArrow.animation.addByPrefix('pressed', 'left press', 24, false);
-							babyArrow.animation.addByPrefix('confirm', 'left confirm', 24, false);	
-						//	}
+							babyArrow.animation.addByPrefix('confirm', 'left confirm', 24, false);
 						case 1:
 							babyArrow.x += Note.swagWidth * 1;
 							babyArrow.animation.addByPrefix('static', 'arrowDOWN');
-							//if (swagNote.noteType == 'mong')
-							//{
-							//babyArrow.animation.addByPrefix('pressed', 'black press', 24, false);
-							//babyArrow.animation.addByPrefix('confirm', 'black confirm', 24, false);
-							//}
-							//else
-							//{
 							babyArrow.animation.addByPrefix('pressed', 'down press', 24, false);
-							babyArrow.animation.addByPrefix('confirm', 'down confirm', 24, false);	
-							//}
+							babyArrow.animation.addByPrefix('confirm', 'down confirm', 24, false);
 						case 2:
 							babyArrow.x += Note.swagWidth * 2;
 							babyArrow.animation.addByPrefix('static', 'arrowUP');
-							//if (swagNote.noteType == 'mong')
-							//{
-							//babyArrow.animation.addByPrefix('pressed', 'violet press', 24, false);
-							//babyArrow.animation.addByPrefix('confirm', 'violet confirm', 24, false);
-							//}
-							//else
-							//{
 							babyArrow.animation.addByPrefix('pressed', 'up press', 24, false);
-							babyArrow.animation.addByPrefix('confirm', 'up confirm', 24, false);	
-							//}
+							babyArrow.animation.addByPrefix('confirm', 'up confirm', 24, false);
 						case 3:
 							babyArrow.x += Note.swagWidth * 3;
 							babyArrow.animation.addByPrefix('static', 'arrowRIGHT');
-							//if (swagNote.noteType == 'mong')
-							//{
-							//babyArrow.animation.addByPrefix('pressed', 'dark press', 24, false);
-							//babyArrow.animation.addByPrefix('confirm', 'dark confirm', 24, false);
-							//}
-							//else
-							//{
 							babyArrow.animation.addByPrefix('pressed', 'right press', 24, false);
 							babyArrow.animation.addByPrefix('confirm', 'right confirm', 24, false);	
-							//}
+						}
 
 				default:
 					babyArrow.frames = Paths.getSparrowAtlas('NOTE_assets');
@@ -1751,65 +1720,34 @@ class PlayState extends MusicBeatState
 						case 0:
 							babyArrow.x += Note.swagWidth * 0;
 							babyArrow.animation.addByPrefix('static', 'arrowLEFT');
-							//if (1 == 2)
-							//{
-							//babyArrow.animation.addByPrefix('pressed', 'yel press', 24, false);
-							//babyArrow.animation.addByPrefix('confirm', 'yel confirm', 24, false);
-							//}
-							//else
-							//{
 							babyArrow.animation.addByPrefix('pressed', 'left press', 24, false);
-							babyArrow.animation.addByPrefix('confirm', 'left confirm', 24, false);	
-							//}
+							babyArrow.animation.addByPrefix('confirm', 'left confirm', 24, false);
 						case 1:
 							babyArrow.x += Note.swagWidth * 1;
 							babyArrow.animation.addByPrefix('static', 'arrowDOWN');
-							//if (1 == 2)
-							//{
-							//babyArrow.animation.addByPrefix('pressed', 'black press', 24, false);
-							//babyArrow.animation.addByPrefix('confirm', 'black confirm', 24, false);
-							//}
-							//else
-							//{
 							babyArrow.animation.addByPrefix('pressed', 'down press', 24, false);
-							babyArrow.animation.addByPrefix('confirm', 'down confirm', 24, false);	
-							//}
+							babyArrow.animation.addByPrefix('confirm', 'down confirm', 24, false);
 						case 2:
 							babyArrow.x += Note.swagWidth * 2;
 							babyArrow.animation.addByPrefix('static', 'arrowUP');
-							//if (1 == 2)
-							//{
-							//babyArrow.animation.addByPrefix('pressed', 'violet press', 24, false);
-							//babyArrow.animation.addByPrefix('confirm', 'violet confirm', 24, false);
-							//}
-							//else
-							//{
 							babyArrow.animation.addByPrefix('pressed', 'up press', 24, false);
-							babyArrow.animation.addByPrefix('confirm', 'up confirm', 24, false);	
-							//}
+							babyArrow.animation.addByPrefix('confirm', 'up confirm', 24, false);
 						case 3:
 							babyArrow.x += Note.swagWidth * 3;
 							babyArrow.animation.addByPrefix('static', 'arrowRIGHT');
-							//
-							//babyArrow.animation.addByPrefix('pressed', 'dark press', 24, false);
-							//babyArrow.animation.addByPrefix('confirm', 'dark confirm', 24, false);
-							//}
-							//else
-							//{
 							babyArrow.animation.addByPrefix('pressed', 'right press', 24, false);
-							babyArrow.animation.addByPrefix('confirm', 'right confirm', 24, false);	
-							//}
+							babyArrow.animation.addByPrefix('confirm', 'right confirm', 24, false);
 			}
 
 			babyArrow.updateHitbox();
 			babyArrow.scrollFactor.set();
 
-			if (!isStoryMode)
-			{
-				babyArrow.y -= 10;
-				babyArrow.alpha = 0;
-				FlxTween.tween(babyArrow, {y: babyArrow.y + 10, alpha: 1}, 1, {ease: FlxEase.circOut, startDelay: 0.5 + (0.2 * i)});
-			}
+			//if (!isStoryMode)
+			//{
+			//	babyArrow.y -= 10;
+			//	babyArrow.alpha = 0;
+			//	FlxTween.tween(babyArrow, {y: babyArrow.y + 10, alpha: 1}, 1, {ease: FlxEase.circOut, startDelay: 0.5 + (0.2 * i)});
+			//}
 
 			babyArrow.ID = i;
 
@@ -1837,8 +1775,6 @@ class PlayState extends MusicBeatState
 	function tweenCamIn():Void
 	{
 		FlxTween.tween(FlxG.camera, {zoom: 1.3}, (Conductor.stepCrochet * 4 / 1000), {ease: FlxEase.elasticInOut});
-	}
-
 	}
 	}
 		override function openSubState(SubState:FlxSubState)
@@ -3775,6 +3711,12 @@ class PlayState extends MusicBeatState
 			dad.dance();
 			if (dad.curCharacter == 'duo'){
 				dad2.dance();
+			}
+			if (dad.curCharacter == 'duo-eevee'){
+				dad2.dance();
+			}
+			if (boyfriend.curCharacter == 'duo-right'){
+				bf2.dance();
 			}
 		}
 

@@ -16,23 +16,23 @@ class HealthIcon extends FlxSprite
 		super();
 		
 		switch(char){
-			case 'crew' | 'wires' | 'green' | 'impostor' | 'sus' | 'mongus' | 'duo':
-				loadGraphic(Paths.image('iconGridMongus'), true, 150, 150);
-				animation.add('crew', [0, 1], 0, false, isPlayer);
-				animation.add('wires', [0, 1], 0, false, isPlayer);
-				animation.add('impostor', [4, 5], 0, false, isPlayer);
-				animation.add('sus', [2, 3], 0, false, isPlayer);
-				animation.add('duo', [6, 6], 0, false, isPlayer);
-				animation.add('mongus', [8, 9], 0, false, isPlayer);
-				animation.add('green', [10, 11], 0, false, isPlayer);
-			case 'duo-eevee' | 'cloud' | 'duo-right' | 'eevee' | 'shade' | 'noctapolar':
-				loadGraphic(Paths.image('iconGridEEVEE'), true, 150, 150);
-				animation.add('duo-eevee', [0, 0], 0, false, isPlayer);
-				animation.add('cloud', [1, 1], 0, false, isPlayer);
-				animation.add('noctapolar', [2, 2], 0, false, isPlayer);
-				animation.add('duo-right', [3, 3], 0, false, isPlayer);
-				animation.add('shade', [4, 4], 0, false, isPlayer);
-				animation.add('eevee', [5, 5], 0, false, isPlayer);
+			//case 'crew' | 'wires' | 'green' | 'impostor' | 'sus' | 'mongus' | 'duo':
+			//	loadGraphic(Paths.image('iconGridMongus'), true, 150, 150);
+			//	animation.add('crew', [0, 1], 0, false, isPlayer);
+			//	animation.add('wires', [0, 1], 0, false, isPlayer);
+			//	animation.add('impostor', [4, 5], 0, false, isPlayer);
+			//	animation.add('sus', [2, 3], 0, false, isPlayer);
+			//	animation.add('duo', [6, 6], 0, false, isPlayer);
+			//	animation.add('mongus', [8, 9], 0, false, isPlayer);
+			//	animation.add('green', [10, 11], 0, false, isPlayer);
+			//case 'duo-eevee' | 'cloud' | 'duo-right' | 'eevee' | 'shade' | 'noctapolar':
+			//	loadGraphic(Paths.image('iconGridfuck'), true, 150, 150);
+			//	animation.add('duo-eevee', [0, 0], 0, false, isPlayer);
+			//	animation.add('cloud', [1, 1], 0, false, isPlayer);
+			//	animation.add('noctapolar', [2, 2], 0, false, isPlayer);
+			//	animation.add('duo-right', [3, 3], 0, false, isPlayer);
+			//	animation.add('shade', [4, 4], 0, false, isPlayer);
+			//	animation.add('eevee', [5, 5], 0, false, isPlayer);
 			case _:
 				loadGraphic(Paths.image('iconGrid'), true, 150, 150);
 				animation.add('bf', [0, 1], 0, false, isPlayer);
@@ -55,6 +55,20 @@ class HealthIcon extends FlxSprite
 				animation.add('parents-christmas', [17], 0, false, isPlayer);
 				animation.add('monster', [19, 20], 0, false, isPlayer);
 				animation.add('monster-christmas', [19, 20], 0, false, isPlayer);
+				animation.add('duo-eevee', [28, 28], 0, false, isPlayer);
+				animation.add('duo-right', [29, 29], 0, false, isPlayer);
+				animation.add('eevee', [30, 31], 0, false, isPlayer);
+				animation.add('shade', [32, 33], 0, false, isPlayer);
+				animation.add('cloud', [34, 35], 0, false, isPlayer);
+				animation.add('noctapolar', [36, 37], 0, false, isPlayer);
+				animation.add('crew', [24, 25], 0, false, isPlayer);
+				animation.add('wires', [24, 25], 0, false, isPlayer);
+				animation.add('impostor', [26, 27], 0, false, isPlayer);
+				animation.add('sus', [38, 39], 0, false, isPlayer);
+				animation.add('duo', [40, 40], 0, false, isPlayer);
+				animation.add('mongus', [42, 43], 0, false, isPlayer);
+				animation.add('green', [44, 45], 0, false, isPlayer);
+				
 		}
 		antialiasing = true;
 		animation.play(char);
