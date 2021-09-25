@@ -5,3 +5,9 @@ sus
 mongus
 green 
 duo
+duo-eevee
+cloud
+noctapolar
+duo-right
+shade
+eevee

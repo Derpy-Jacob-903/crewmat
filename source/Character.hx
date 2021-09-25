@@ -223,6 +223,24 @@ class Character extends FlxSprite
 				addOffset("singDownHOLD", -10, -20);
 
 				playAnim('idle');
+
+			case 'dad':
+				tex = Paths.getSparrowAtlas('characters/DADDY_DEAREST');
+				frames = tex;
+				animation.addByPrefix('idle', 'Dad idle dance', 24, false);
+				animation.addByPrefix('singUP', 'Dad Sing Note UP', 24, false);
+				animation.addByPrefix('singRIGHT', 'Dad Sing Note RIGHT', 24, false);
+				animation.addByPrefix('singDOWN', 'Dad Sing Note DOWN', 24, false);
+				animation.addByPrefix('singLEFT', 'Dad Sing Note LEFT', 24, false);
+
+				addOffset('idle');
+				addOffset("singUP", -6, 50);
+				addOffset("singRIGHT", 0, 27);
+				addOffset("singLEFT", -10, 10);
+				addOffset("singDOWN", 0, -30);
+
+				playAnim('idle');
+
 			case 'duo':
 				tex = Paths.getSparrowAtlas('sus/impasta');
 				frames = tex;
@@ -249,7 +267,7 @@ class Character extends FlxSprite
 
 				playAnim('idle');
 			case 'duo-eevee':
-				tex = Paths.getSparrowAtlas('characters/Cloud');
+				tex = Paths.getSparrowAtlas('characters/Cloud sprites');
 				frames = tex;
 				animation.addByPrefix('idle', 'idle', 24, false);
 				animation.addByPrefix('singUP', 'up', 24, false);
@@ -265,13 +283,13 @@ class Character extends FlxSprite
 
 				playAnim('idle');
 			case 'cloud':
-				tex = Paths.getSparrowAtlas('characters/Cloud');
+				tex = Paths.getSparrowAtlas('characters/Cloud sprites');
 				frames = tex;
-				animation.addByPrefix('idle', 'idle', 24, false);
+				animation.addByPrefix('idle', 'Idle cloud', 24, false);
 				animation.addByPrefix('singUP', 'up', 24, false);
 				animation.addByPrefix('singRIGHT', 'right', 24, false);
-				animation.addByPrefix('singDOWN', 'down', 24, false);
-				animation.addByPrefix('singLEFT', 'left', 24, false);
+				animation.addByPrefix('singDOWN', 'down cloud', 24, false);
+				animation.addByPrefix('singLEFT', 'left cloud', 24, false);
 
 				addOffset('idle');
 				addOffset("singUP", 80, 30);
@@ -328,17 +346,17 @@ class Character extends FlxSprite
 			case 'noctapolar':
 				tex = Paths.getSparrowAtlas('characters/noctapolar');
 				frames = tex;
-				animation.addByPrefix('idle', 'idle', 24, false);
-				animation.addByPrefix('singUP', 'up', 24, false);
-				animation.addByPrefix('singRIGHT', 'right', 24, false);
-				animation.addByPrefix('singDOWN', 'down', 24, false);
-				animation.addByPrefix('singLEFT', 'left', 24, false);
+				animation.addByPrefix('idle', 'noctapolar idle dance', 24, false);
+				animation.addByPrefix('singUP', 'noctapolar Sing Note UP', 24, false);
+				animation.addByPrefix('singRIGHT', 'noctapolar Sing Note RIGHT', 24, false);
+				animation.addByPrefix('singDOWN', 'noctapolar Sing Note DOWN', 24, false);
+				animation.addByPrefix('singLEFT', 'noctapolar Sing Note LEFT', 24, false);
 
 				addOffset('idle');
-				addOffset("singUP", 80, 30);
-				addOffset("singRIGHT", -50, -10);
-				addOffset("singLEFT", 121, 0);
-				addOffset("singDOWN", -10, -20);
+				addOffset("singUP");
+				addOffset("singRIGHT");
+				addOffset("singLEFT");
+				addOffset("singDOWN");
 
 				playAnim('idle');
 			case 'wires':

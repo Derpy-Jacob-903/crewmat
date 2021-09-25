@@ -10,6 +10,7 @@ import flixel.util.FlxColor;
 import polymod.format.ParseRules.TargetSignatureElement;
 #end
 import PlayState;
+import Section.SwagSection;
 
 using StringTools;
 
@@ -36,7 +37,7 @@ class Note extends FlxSprite
 	public static var RED_NOTE:Int = 3;
 	public var noteType:String = 'normal';
 	
-	public var dType:Int = 0;
+	public var dType:Int = 1;
 
 	public var rating:String = "shit";
 
@@ -61,14 +62,17 @@ class Note extends FlxSprite
 
 		this.noteData = noteData;
 
+
 		var daStage:String = PlayState.curStage;
+
+		//var daStage:String = PlayState.curStage;
 		
-		if (dType == 0) noteType = 'mong';
-		else if (dType == 2)
-				{
-					if (noteData <= 3) noteType = 'mong';
+		//if (dType == 0) noteType = 'mong';
+		//else if (dType == 2)
+		//		{
+		//			if (noteData <= 3) noteType = 'mong';
 					// if (daNote.noteData == 4) noteType = '???';
-				}
+		//		}
 
 		switch (PlayState.SONG.noteStyle)
 		{

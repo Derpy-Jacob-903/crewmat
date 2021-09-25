@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="noctapolar.png">
+	<SubTexture name="noctapolar Sing Note DOWN0000" x="3110" y="0" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note DOWN0001" x="3110" y="0" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note DOWN0002" x="3732" y="0" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note DOWN0003" x="3732" y="0" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note DOWN0004" x="3732" y="0" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note DOWN0005" x="3732" y="0" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note DOWN0006" x="3732" y="0" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note DOWN0007" x="3732" y="0" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note DOWN0008" x="3732" y="0" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note DOWN0009" x="3732" y="0" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note DOWN0010" x="3732" y="0" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note DOWN0011" x="3732" y="0" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note DOWN0012" x="3732" y="0" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note DOWN0013" x="3732" y="0" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note DOWN0014" x="3732" y="0" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note DOWN0015" x="3732" y="0" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note DOWN0016" x="3732" y="0" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note DOWN0017" x="3732" y="0" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note DOWN0018" x="3732" y="0" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note DOWN0019" x="3732" y="0" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note DOWN0020" x="3732" y="0" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note DOWN0021" x="3732" y="0" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note DOWN0022" x="3732" y="0" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note DOWN0023" x="3732" y="0" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note DOWN0024" x="3732" y="0" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note DOWN0025" x="3732" y="0" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note DOWN0026" x="3732" y="0" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note DOWN0027" x="3732" y="0" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note DOWN0028" x="3732" y="0" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note DOWN0029" x="3732" y="0" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    
+	<SubTexture name="noctapolar Sing Note LEFT0000" x="1244" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note LEFT0001" x="1244" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note LEFT0002" x="1866" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note LEFT0003" x="1866" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note LEFT0004" x="1866" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note LEFT0005" x="1866" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note LEFT0006" x="1866" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note LEFT0007" x="1866" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note LEFT0008" x="1866" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note LEFT0009" x="1866" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note LEFT0010" x="1866" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note LEFT0011" x="1866" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note LEFT0012" x="1866" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note LEFT0013" x="1866" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note LEFT0014" x="1866" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    
+	<SubTexture name="noctapolar Sing Note RIGHT0000" x="2488" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note RIGHT0001" x="2488" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+	<SubTexture name="noctapolar Sing Note RIGHT0002" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note RIGHT0003" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+	<SubTexture name="noctapolar Sing Note RIGHT0004" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note RIGHT0005" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+	<SubTexture name="noctapolar Sing Note RIGHT0006" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note RIGHT0007" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+	<SubTexture name="noctapolar Sing Note RIGHT0008" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note RIGHT0009" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+	<SubTexture name="noctapolar Sing Note RIGHT0010" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note RIGHT0011" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+	<SubTexture name="noctapolar Sing Note RIGHT0012" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note RIGHT0013" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+	<SubTexture name="noctapolar Sing Note RIGHT0014" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note RIGHT0015" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+	<SubTexture name="noctapolar Sing Note RIGHT0016" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note RIGHT0017" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+	<SubTexture name="noctapolar Sing Note RIGHT0018" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note RIGHT0019" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+	<SubTexture name="noctapolar Sing Note RIGHT0020" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note RIGHT0021" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+	<SubTexture name="noctapolar Sing Note RIGHT0022" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note RIGHT0023" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+	<SubTexture name="noctapolar Sing Note RIGHT0024" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note RIGHT0025" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+	<SubTexture name="noctapolar Sing Note RIGHT0026" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note RIGHT0027" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+	<SubTexture name="noctapolar Sing Note RIGHT0028" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note RIGHT0029" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+	<SubTexture name="noctapolar Sing Note RIGHT0030" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note RIGHT0031" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+	<SubTexture name="noctapolar Sing Note RIGHT0032" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note RIGHT0033" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+	<SubTexture name="noctapolar Sing Note RIGHT0034" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note RIGHT0035" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+	<SubTexture name="noctapolar Sing Note RIGHT0036" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note RIGHT0037" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+	<SubTexture name="noctapolar Sing Note RIGHT0038" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note RIGHT0039" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+	<SubTexture name="noctapolar Sing Note RIGHT0040" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note RIGHT0041" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+	<SubTexture name="noctapolar Sing Note RIGHT0042" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note RIGHT0043" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+	<SubTexture name="noctapolar Sing Note RIGHT0044" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note RIGHT0045" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+	<SubTexture name="noctapolar Sing Note RIGHT0046" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note RIGHT0047" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+	<SubTexture name="noctapolar Sing Note RIGHT0048" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note RIGHT0049" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+	<SubTexture name="noctapolar Sing Note RIGHT0050" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note RIGHT0051" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+	<SubTexture name="noctapolar Sing Note RIGHT0052" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note RIGHT0053" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+	<SubTexture name="noctapolar Sing Note RIGHT0054" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note RIGHT0055" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+	<SubTexture name="noctapolar Sing Note RIGHT0056" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note RIGHT0057" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+	<SubTexture name="noctapolar Sing Note RIGHT0058" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note RIGHT0059" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+	<SubTexture name="noctapolar Sing Note RIGHT0060" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note RIGHT0061" x="3110" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    
+	<SubTexture name="noctapolar Sing Note UP0000" x="0" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note UP0001" x="0" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note UP0002" x="622" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note UP0003" x="622" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note UP0004" x="622" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note UP0005" x="622" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note UP0006" x="622" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note UP0007" x="622" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note UP0008" x="622" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note UP0009" x="622" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note UP0010" x="622" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note UP0011" x="622" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note UP0012" x="622" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note UP0013" x="622" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar Sing Note UP0014" x="622" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    
+	<SubTexture name="noctapolar idle dance0000" x="0" y="0" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar idle dance0001" x="0" y="0" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar idle dance0002" x="622" y="0" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar idle dance0003" x="622" y="0" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar idle dance0004" x="1244" y="0" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar idle dance0005" x="1244" y="0" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar idle dance0006" x="1866" y="0" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar idle dance0007" x="1866" y="0" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar idle dance0008" x="2488" y="0" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar idle dance0009" x="2488" y="0" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar idle dance0010" x="2488" y="0" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar idle dance0011" x="2488" y="0" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar idle dance0012" x="2488" y="0" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar idle dance0013" x="2488" y="0" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    
+
+	<SubTexture name="noctapolar trail Sing Note DOWN0000" x="3732" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar trail Sing Note DOWN0001" x="3732" y="558" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar trail Sing Note DOWN0002" x="0" y="1116" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar trail Sing Note DOWN0003" x="0" y="1116" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar trail Sing Note DOWN0004" x="0" y="1116" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar trail Sing Note DOWN0005" x="0" y="1116" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar trail Sing Note DOWN0006" x="0" y="1116" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar trail Sing Note DOWN0007" x="0" y="1116" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar trail Sing Note DOWN0008" x="0" y="1116" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar trail Sing Note DOWN0009" x="0" y="1116" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar trail Sing Note DOWN0010" x="0" y="1116" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar trail Sing Note DOWN0011" x="0" y="1116" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar trail Sing Note DOWN0012" x="0" y="1116" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar trail Sing Note DOWN0013" x="0" y="1116" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar trail Sing Note DOWN0014" x="0" y="1116" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    
+	<SubTexture name="noctapolar trail Sing Note LEFT0000" x="3110" y="1116" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar trail Sing Note LEFT0001" x="3110" y="1116" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar trail Sing Note LEFT0002" x="3732" y="1116" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar trail Sing Note LEFT0003" x="3732" y="1116" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar trail Sing Note LEFT0004" x="3732" y="1116" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar trail Sing Note LEFT0005" x="3732" y="1116" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar trail Sing Note LEFT0006" x="3732" y="1116" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar trail Sing Note LEFT0007" x="3732" y="1116" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar trail Sing Note LEFT0008" x="3732" y="1116" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar trail Sing Note LEFT0009" x="3732" y="1116" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    
+	<SubTexture name="noctapolar trail Sing Note RIGHT0000" x="1866" y="1116" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar trail Sing Note RIGHT0001" x="1866" y="1116" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar trail Sing Note RIGHT0002" x="2488" y="1116" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar trail Sing Note RIGHT0003" x="2488" y="1116" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar trail Sing Note RIGHT0004" x="2488" y="1116" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar trail Sing Note RIGHT0005" x="2488" y="1116" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar trail Sing Note RIGHT0006" x="2488" y="1116" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar trail Sing Note RIGHT0007" x="2488" y="1116" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar trail Sing Note RIGHT0008" x="2488" y="1116" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar trail Sing Note RIGHT0009" x="2488" y="1116" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    
+	<SubTexture name="noctapolar trail Sing Note UP0000" x="622" y="1116" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar trail Sing Note UP0001" x="622" y="1116" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar trail Sing Note UP0002" x="1244" y="1116" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar trail Sing Note UP0003" x="1244" y="1116" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar trail Sing Note UP0004" x="1244" y="1116" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar trail Sing Note UP0005" x="1244" y="1116" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar trail Sing Note UP0006" x="1244" y="1116" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar trail Sing Note UP0007" x="1244" y="1116" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar trail Sing Note UP0008" x="1244" y="1116" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar trail Sing Note UP0009" x="1244" y="1116" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar trail Sing Note UP0010" x="1244" y="1116" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar trail Sing Note UP0011" x="1244" y="1116" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar trail Sing Note UP0012" x="1244" y="1116" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar trail Sing Note UP0013" x="1244" y="1116" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+    <SubTexture name="noctapolar trail Sing Note UP0014" x="1244" y="1116" width="622" height="558" frameX="0" frameY="0" frameWidth="622" frameHeight="558"/>
+</TextureAtlas>
