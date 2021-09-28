@@ -5,6 +5,8 @@ import flixel.FlxSprite;
 import flixel.animation.FlxBaseAnimation;
 import flixel.graphics.frames.FlxAtlasFrames;
 
+//parasite
+
 using StringTools;
 
 class Character extends FlxSprite
@@ -149,6 +151,31 @@ class Character extends FlxSprite
 
 				playAnim('idle');
 			case 'green':
+				tex = Paths.getSparrowAtlas('sus/Green Impostor');
+				frames = tex;
+				animation.addByPrefix('idle', 'idle', 24, false);
+				animation.addByPrefix('singUP', 'Up', 24, false);
+				animation.addByPrefix('singRIGHT', 'Right', 24, false);
+				animation.addByPrefix('singDOWN', 'Down', 24, false);
+				animation.addByPrefix('singLEFT', 'Left', 24, false);
+				animation.addByIndices('singLeftHOLD', 'Left', [12, 13, 14], "", 24, false);
+				animation.addByIndices('singRightHOLD', 'Right', [12, 13, 14], "", 24, false);
+				animation.addByIndices('singUpHOLD', 'Up', [12, 13, 14], "", 24, false);
+				animation.addByIndices('singDownHOLD', 'Down', [12, 13, 14], "", 24, false);
+
+				addOffset('idle');
+				addOffset("singUP", 33, 64);
+				addOffset("singRIGHT", -1, -15);
+				addOffset("singLEFT", 284, 117);
+				addOffset("singDOWN", 79, 110);
+
+				addOffset("singUpHOLD", 33, 64);
+				addOffset("singRightHOLD", -1, -15);
+				addOffset("singLeftHOLD", 284, 117);
+				addOffset("singDOWN", 79, 110);
+
+				playAnim('idle');
+			case 'parasite':
 				tex = Paths.getSparrowAtlas('sus/Green Impostor');
 				frames = tex;
 				animation.addByPrefix('idle', 'idle', 24, false);
