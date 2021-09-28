@@ -64,10 +64,11 @@ class HealthIcon extends FlxSprite
 				animation.add('crew', [24, 25], 0, false, isPlayer);
 				animation.add('wires', [24, 25], 0, false, isPlayer);
 				animation.add('impostor', [26, 27], 0, false, isPlayer);
-				animation.add('sus', [38, 39], 0, false, isPlayer);
+				animation.add('sus', [26, 27], 0, false, isPlayer);
 				animation.add('duo', [40, 40], 0, false, isPlayer);
 				animation.add('mongus', [42, 43], 0, false, isPlayer);
 				animation.add('green', [44, 45], 0, false, isPlayer);
+				animation.add('parasite', [44, 45], 0, false, isPlayer);
 				
 		}
 		antialiasing = true;
