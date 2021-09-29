@@ -2803,6 +2803,8 @@ class PlayState extends MusicBeatState
 					if (health < 2)
 						health += 0.04;
 }
+else
+						health += 0.04;
 					if (FlxG.save.data.accuracyMod == 0)
 						totalNotesHit += 0.75;
 				case 'sick':
@@ -2811,6 +2813,8 @@ if(dad.curCharacter != "parasite")
 					if (health < 2)
 						health += 0.1;
 }
+else
+						health += 0.1;
 					if (FlxG.save.data.accuracyMod == 0)
 						totalNotesHit += 1;
 					sicks++;
