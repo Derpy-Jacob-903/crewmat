@@ -2594,10 +2594,10 @@ class PlayState extends MusicBeatState
 						
 						if(dad.curCharacter == "parasite")
 						{
-							if (health > 1.6)
-							{
+							//if (healthBar.percent > 80)
+							//{
 							health -= 0.04;
-							}
+							//}
 						}
 					}
 				});
@@ -2798,13 +2798,19 @@ class PlayState extends MusicBeatState
 					score = 200;
 					ss = false;
 					goods++;
+				if(dad.curCharacter != "parasite")
+		   {
 					if (health < 2)
 						health += 0.04;
+}
 					if (FlxG.save.data.accuracyMod == 0)
 						totalNotesHit += 0.75;
 				case 'sick':
+if(dad.curCharacter != "parasite")
+		   {
 					if (health < 2)
 						health += 0.1;
+}
 					if (FlxG.save.data.accuracyMod == 0)
 						totalNotesHit += 1;
 					sicks++;
