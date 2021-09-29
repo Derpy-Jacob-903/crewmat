@@ -140,6 +140,7 @@ class PlayState extends MusicBeatState
 
 	private var healthBarBG:FlxSprite;
 	private var healthBar:FlxBar;
+	private var healthBarText:FlxText;
 	private var songPositionBar:Float = 0;
 	
 	private var generatedMusic:Bool = false;
@@ -2003,7 +2004,10 @@ class PlayState extends MusicBeatState
 		iconP1.x = healthBar.x + (healthBar.width * (FlxMath.remapToRange(healthBar.percent, 0, 100, 100, 0) * 0.01) - iconOffset);
 		iconP2.x = healthBar.x + (healthBar.width * (FlxMath.remapToRange(healthBar.percent, 0, 100, 100, 0) * 0.01)) - (iconP2.width - iconOffset);
 
-		if(dad.curCharacter != "parasite"
+		healthBarText = new FlxText(healthBarBG.x + healthBarBG.width / 2 - 75, healthBarBG.y + (FlxG.save.data.downscroll ? 100 : -100) - 25, 0, ("Health: " + healthBar.percent + "%"), 40);
+		add(healthBarText);
+
+		if(dad.curCharacter != "parasite")
 		   {
 			if (health > 2)
 			{
@@ -2459,6 +2463,9 @@ class PlayState extends MusicBeatState
 						switch(daNote.noteType)
 						{
 							case 'mong':
+								switch (dad.curCharacter)
+								{
+								case 'duo' | 'duo-eevee' | 'duo-right':
 								switch (Math.abs(daNote.noteData))
 								{
 									case 2:
@@ -2469,7 +2476,20 @@ class PlayState extends MusicBeatState
 										dad2.playAnim('singDOWN', true);
 									case 0:
 										dad2.playAnim('singLEFT', true);
-								}		
+								}	
+								case _:
+								switch (Math.abs(daNote.noteData))
+								{
+									case 2:
+										dad.playAnim('singUP' + altAnim, true);
+									case 3:
+										dad.playAnim('singRIGHT' + altAnim, true);
+									case 1:
+										dad.playAnim('singDOWN' + altAnim, true);
+									case 0:
+										dad.playAnim('singLEFT' + altAnim, true);
+								}
+								}
 							default:
 								switch (Math.abs(daNote.noteData))
 								{
@@ -2572,8 +2592,12 @@ class PlayState extends MusicBeatState
 						notes.remove(daNote, true);
 						daNote.destroy();
 						
-						if(dad.curCharacter == "parasite" && health > 1.6){
+						if(dad.curCharacter == "parasite")
+						{
+							if (health > 1.6)
+							{
 							health -= 0.04;
+							}
 						}
 					}
 				});
